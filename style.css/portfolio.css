@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    background: url(../images/developer.png), url(../images/header_bg.png),  #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    
+}
+nav {
+    width: 71%;
+    max-width: 1140px;
+    /* border: solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF8F3;
+
+}
+.logo h2{
+    font-size: 45px;
+    
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+}
+.menu a {
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+#baner {
+    /* border: solid red 2px; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#baner .baner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color:#474747;
+    margin-bottom: 5px;
+   
+}
+
+#baner .baner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    padding-bottom: 20px;
+}
+#baner .baner-content p{
+    font-size: 18px;
+    font-weight: ;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+#baner .baner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
